@@ -656,7 +656,7 @@ describe('User Model', function() {
     return previous
       .then(function() {
         // console.log('Generating username after conflict');
-        userDB.bulkDocs(docs);
+        return userDB.bulkDocs(docs);
       })
       .then(function() {
         return user.socialAuth('facebook', auth, profile, req);
@@ -854,7 +854,7 @@ describe('User Model', function() {
     return BPromise.fromCallback(function(callback) {
       request.get(finalUrl)
         .end(callback);
-    })
+    })	  
       .then(function(res) {
         var result = JSON.parse(res.text);
         if(result.db_name) {
