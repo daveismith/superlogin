@@ -35,7 +35,7 @@
   "dependencies": {
     "bluebird": "^3.7.2",
     "couch-pwd-updated": "github:aphixsoftware/couch-pwd-updated",
-    "ejs": "^2.6.2",
+    "ejs": "^3.1.5",
     "express": "^4.17.1",
     "extend": "^3.0.0",
     "fs-extra": "^0.30.0",
