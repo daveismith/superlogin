@@ -55,7 +55,7 @@
   },
   "devDependencies": {
     "body-parser": "^1.19.0",
-    "chai": "^3.5.0",
+    "chai": "^4.2.0",
     "gulp": "^4.0.2",
     "gulp-jshint": "^2.0.0",
     "gulp-mocha": "^7.0.1",
