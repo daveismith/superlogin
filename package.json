@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/colinskow/superlogin",
   "dependencies": {
-    "bluebird": "^3.5.5",
+    "bluebird": "^3.7.2",
     "couch-pwd-updated": "github:aphixsoftware/couch-pwd-updated",
     "ejs": "^2.6.2",
     "express": "^4.17.1",
